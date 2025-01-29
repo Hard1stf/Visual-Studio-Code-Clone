@@ -43,10 +43,10 @@ This project is part of the **100xDevs** initiative and is aimed at improving sk
 
 ```
 📦 vscode-clone-html-css
-├── 📜 index.html          # Main HTML file
-├── 📜 style.css           # Main CSS file
-├── 📂 visual-studio-code-icons             # Images and icons
-└── 📜 README.md           # Project Documentation
+├── 📜 index.html                  # Main HTML file
+├── 📜 style.css                   # Main CSS file
+├── 📂 visual-studio-code-icons    # Images and icons
+└── 📜 README.md                   # Project Documentation
 ```
 
 ## 📝 Challenges & Learnings
