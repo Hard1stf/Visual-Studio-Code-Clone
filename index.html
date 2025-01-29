@@ -179,43 +179,112 @@
                     </div>
                 </div>
                 <div class="row-container" id="code-extensions">
-                    <div id="text-container">
-                        <div class="text-content sub-heading">
+                    <div id="text-area">
+                        <div class="text-content sub-heading ">
                             <h2>Code with Extensions</h2>
                             <p>
                                 Extensions let you customize VS Code and Copilot with AI-powered features grounded
                                 securely in your team's data and workflows. Grab one from the gallery and add it to chat
-                                like @azure, or <a
-                                    href="https://code.visualstudio.com/docs/copilot/copilot-extensibility-overview">build
-                                    your own Copilot extension</a> to power your team's unique scenarios.
+                                like @azure, or <a href="https://code.visualstudio.com/docs/copilot/copilot-extensibility-overview">build your own Copilot extension</a> to power your team's unique scenarios.
                             </p>
                         </div>
                     </div>
-                    <div id="extentions-container">
-                        <div id="first-row">
-                            <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python"
-                                target="_blank" rel="noopener noreferrer"></a>
-                            <a href="" target="_blank"></a>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=Stripe.vscode-stripe"
-                                target="_blank" rel="noopener noreferrer"></a>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools"
-                                target="_blank" rel="noopener noreferrer"></a>
+                    <div id="extensions-container">
+                        <div id="first-row" class="rows">
+                            <a class="click-card" href="https://marketplace.visualstudio.com/items?itemName=ms-python.python"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="extension-title-container">
+                                    <img class="adj-img" src="https://code.visualstudio.com/assets/images/python-extension.png" alt="python-icon">
+                                    <div class="sub-text-container">
+                                        <h3>Python</h3>
+                                        <span>Adds rich language support for Python</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="click-card" href="https://marketplace.visualstudio.com/items?itemName=Stripe.vscode-stripe"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="extension-title-container">
+                                    <img class="adj-img" src="https://code.visualstudio.com/assets/images/stripe-extension.png" alt="stripe-icon">
+                                    <div class="sub-text-container">
+                                        <h3>Stripe</h3>
+                                        <span>Build, test, and use Stripe inside your editor</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="click-card" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="extension-title-container">
+                                    <img class="adj-img" src="https://code.visualstudio.com/assets/images/c-extension.png" alt="c/cpp-icon">
+                                    <div class="sub-text-container">
+                                        <h3>C/C++</h3>
+                                        <span>Adds rich language support for C/C++</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        <div id="second-row">
-                            <a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter"
-                                target="_blank" rel="noopener noreferrer"></a>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
-                                target="_blank" rel="noopener noreferrer"></a>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit"
-                                target="_blank" rel="noopener noreferrer"></a>
+                        <div id="second-row" class="rows">
+                            <a class="click-card" href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="extension-title-container">
+                                    <img class="adj-img" src="https://code.visualstudio.com/assets/images/jupyter-extension.png" alt="jupyter-icon">
+                                    <div class="sub-text-container">
+                                        <h3>Jupyter</h3>
+                                        <span>Language support for Jupyter Notebooks</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="click-card" href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="extension-title-container">
+                                    <img class="adj-img" src="https://code.visualstudio.com/assets/images/gitlens-extension.png" alt="gitlens-icon">
+                                    <div class="sub-text-container">
+                                        <h3>GitLens</h3>
+                                        <span>Supercharge your Git experience</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="click-card" href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="extension-title-container">
+                                    <img class="adj-img" src="https://code.visualstudio.com/assets/images/cs-dev-kit-extension.png" alt="c-sharp-icon">
+                                    <div class="sub-text-container">
+                                        <h3>C# Dev Kit</h3>
+                                        <span>Powerful tools for your C# environment</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        <div id="third-row">
-                            <a href="https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode"
-                                target="_blank" rel="noopener noreferrer"></a>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azure-github-copilot"
-                                target="_blank" rel="noopener noreferrer"></a>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack"
-                                target="_blank" rel="noopener noreferrer"></a>
+                        <div id="third-row" class="rows">
+                            <a class="click-card" href="https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="extension-title-container">
+                                    <img class="adj-img" src="https://code.visualstudio.com/assets/images/mongodb-extension.png" alt="mongodb-icon">
+                                    <div class="sub-text-container">
+                                        <h3>MongoDB</h3>
+                                        <span>Extension for the @MongoDB agent</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="click-card" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azure-github-copilot"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="extension-title-container">
+                                    <img class="adj-img" src="https://code.visualstudio.com/assets/images/azure.png" alt="azure-icon">
+                                    <div class="sub-text-container">
+                                        <h3>GitHub Copilot for Azure</h3>
+                                        <span>Streamline the process of developing for Azure</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="click-card" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="extension-title-container">
+                                    <img class="adj-img" src="https://code.visualstudio.com/assets/images/remote-extension.png" alt="remote-extension-icon">
+                                    <div class="sub-text-container">
+                                        <h3>Remote Development</h3>
+                                        <span>Open folders in a container on a remote machine</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
