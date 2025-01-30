@@ -130,7 +130,6 @@ header {
     font-weight: 500;
 }
 
-
 #search-area #download-btn {
     background-color: #007ACC;
     color: #fff;
@@ -413,7 +412,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 72px;
+    gap: 144px;
 }
 
 .row-container {
@@ -473,7 +472,7 @@ main {
     margin: 40px 0 0 0;
 }
 
-#text-area{
+.text-area{
     width: 60%;
     flex: 1;
     padding: 0 48px 0 0 ;
@@ -541,6 +540,41 @@ main {
     width: auto;
     align-self: flex-start;
     border-radius: 4px;
+}
+
+.languages{
+    padding: 0 48px 0 0;
+    flex: 1;
+}
+
+#code-language{
+    padding: 0 72px;
+}
+
+#programming-languages{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lang img{
+    height: 40px;
+    width: auto;
+}
+
+.lang code{
+    font-size: 16px;
+    margin: 0;
+    line-height: 100%;
+    background-color: unset;
+    color: #9ba3b4;
 }
 
 #rich-features {
