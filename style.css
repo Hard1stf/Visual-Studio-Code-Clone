@@ -688,3 +688,79 @@ footer {
 .footer-social-media #x-icon {
     max-width: 24px;
 }
+
+@media (max-width: 1024px) {
+    header{
+        height: fit-content;
+    }
+
+    #nav-container{
+        padding: 0 0 20px 0;
+        flex-direction: column;
+    }
+
+    main{
+        width: 90%;
+    }
+
+    .container{
+        padding: 16px;
+    }
+
+    #copilot-section{
+        flex-wrap: nowrap;
+    }
+
+    #text-container{
+        padding: 0;
+    }
+
+    .sub-heading p{
+        text-align: justify;
+    }
+
+    #img-container{
+        padding: 0 0 0 32px;
+    }
+
+    #img-container img{
+        width: 565px;
+    }
+    #main-section-container{
+        width: 100%;
+    }
+
+    .click-card{
+        padding: 10px;
+        height: fit-content;
+    }
+
+    #code-extensions{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #code-extensions .text-area{
+        padding: 0;
+    }
+
+    #extensions-container{
+        padding: 0;
+    }
+
+    #code-extensions > div.text-area > div > h2{
+        text-align: center;
+    }
+
+    #code-extensions > div.text-area > div > p{
+        margin: 0 0 40px 0;
+    }
+
+    #code-language {
+        padding: 0 32px;
+    }
+
+    #programming-languages {
+        column-gap: 40px;
+    }
+}
