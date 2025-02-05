@@ -764,3 +764,63 @@ footer {
         column-gap: 40px;
     }
 }
+
+@media (max-width: 768px) {
+    .button{
+        font-size: 1rem;
+    }
+
+    #nav-bar ul li {
+        padding: 0 0px 0 12px;
+    }
+
+    #nav-bar ul {
+        padding: 0 0 0 50px;
+    }
+
+    #card-grids {
+        gap: 10px;
+    }
+
+    #btn-content {
+        align-items: center;
+    }
+
+    #copilot-section {
+        padding: 16px 0;
+    }
+
+    .row-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #text-container {
+        width: 100%;
+    }
+
+    #img-container {
+        justify-content: center;
+        padding: 0;
+    }
+
+    #code-language {
+        gap: 24px;
+    }
+
+    #a-list {
+        margin:0
+    }
+
+    #main-section-container {
+        gap: 70px;
+    }
+
+    .click-card {
+        height: inherit;
+    }
+
+    #programming-languages {
+        padding: 0 0 0 50px;
+    }
+}
