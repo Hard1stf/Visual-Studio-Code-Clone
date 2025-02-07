@@ -72,7 +72,7 @@ Feel free to fork this repository and contribute improvements! If you have any s
 
 - GitHub: [@Hard1stf](https://github.com/Hard1stf)
 - Twitter: [@Vijeta_X](https://x.com/Vijeta_X)
-- LinkedIn: [Hardik Vijeta](www.linkedin.com/in/hardik-vijeta-0a8792217)
+- LinkedIn: [Hardik Vijeta](https://www.linkedin.com/in/hardik-vijeta-0a8792217)
 
 ## 🎉 Acknowledgments
 
